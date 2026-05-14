@@ -1,0 +1,32 @@
+year = 2026
+
+focus = 0.0
+
+skin = "corda azul brilhante"
+
+shedding = True
+
+print("meus dados sao exatamente : ")
+
+print(year)
+
+print(focus)
+
+print(skin)
+
+print(shedding)
+
+
+# essa atividade e facil mas nao entendi direito
+
+#O próximo Ano da Cobra é em 2037. Mas já que você está aprendendo Python, este é o seu ano! 🧧
+
+#As cobras perdem pelos, se adaptam e se transformam. E você também pode.
+
+#Crie 4 variáveis, cada uma com um tipo de dados diferente:
+
+#year→ um número inteiro para o ano atual
+#focus→ um flutuador para o seu nível de energia (0,0-1,0)
+#skin→ uma corda para algo que te segura
+#hedding→ um booleano; você está pronto para deixar ir?
+#Em seguida, imprima cada variável.
