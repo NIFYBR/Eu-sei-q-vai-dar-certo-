@@ -1,0 +1,10 @@
+print("Informaçoes do primeiro cartão de crédito")
+
+balance = 250.00
+rate = 0.02
+
+balance = balance + (balance * rate)
+
+print(balance)
+
+#essa atividade nao foi tao simples como parece eu tinha deito 2 respostas mas a atividade so queria o novo valor 
