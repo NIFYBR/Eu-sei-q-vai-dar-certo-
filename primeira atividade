@@ -1,0 +1,15 @@
+Pc = float(input("Quanto q você tem em Pesos colombianos: "))
+Sp = float(input("Quanto q você tem em Solado peruano: "))
+Rb = float(input("Quanto q você tem em Reais brasileiros: "))
+
+#eu nao sabia oq fazer mas dei uma leve pesquisada e aprendi q e so multiplicar o dinheiro mais a taxa so dola americano
+
+taxapc = 0.00026
+taxasp = 0.29
+taxarb = 0.20
+
+#vou fazer de duas formas para melhorar meu desempenho
+
+dolares = (Pc * taxapc) + (Sp * taxasp) + (Rb * taxarb)
+
+print("O valor total q voce tem em dólares americanos somando Pesos colombianos,Solado peruano,Reais brasileiros e de :",dolares,"dólares americanos.")
