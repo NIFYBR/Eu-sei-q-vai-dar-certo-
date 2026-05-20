@@ -1,0 +1,9 @@
+numero = input("digite algo: ")
+
+print(f"O tipo primitivo desse valor é", type(numero))
+print(f"Só tem espaços?", numero.isspace())
+print(f"É um número?", numero.isnumeric())
+print(f"É alfabético?", numero.isalpha()) 
+
+#esse codigo me mostra o tipo primitivo do valor digitado, se tem espaço, se é um número ou se é alfabético.
+ 
