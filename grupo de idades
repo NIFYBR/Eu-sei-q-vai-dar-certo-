@@ -1,0 +1,40 @@
+nomes = []
+idades = []
+sexos = []
+idade = 0
+mulheresJovens = 0
+nomedoHOmemMaisVelho = ""
+idadeDoHomemMaisVelho = 0
+
+for rp in range(0, 4 ,1):
+
+    if rp == 0:
+        print("======================================================================Anotaçoes do grupo======================================================================\n")
+
+    sexo = input("Digite seu sexo (M/F) :").upper()
+    nome = input("Digite seu nome :")    
+    idade = int(input("Digite sua idade :"))
+
+    print("")
+    print("======================================================================Proximo participante======================================================================\n")
+
+    if sexo == "F" or sexo == "f" and idade <= 20:
+        
+        nomes.append(nome)
+        idades.append(idade)
+        mulheresJovens += 1
+
+    elif sexo == "F" and idade > 20:
+        nomes.append(nome)
+        idades.append(idade)
+   
+    if sexo == "M" or sexo == "m":
+        if idade > idadeDoHomemMaisVelho:
+            idadeDoHomemMaisVelho = idade
+            nomedoHOmemMaisVelho = nome
+        nomes.append(nome)
+        idades.append(idade)
+
+print(f"a media de idade do grupo e: {sum(idades) / len(idades):.1f}")
+print(f"tem {mulheresJovens} mulheres com menos de 20 anos")
+print(f"o homem mais velho é {nomedoHOmemMaisVelho} com {idadeDoHomemMaisVelho} anos")
